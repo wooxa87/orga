@@ -55,8 +55,5 @@
         - Ticket verfällt nach xyz Minuten
 
 ## Aufgekommene Fragen:
-- Slots oder Tickets => finde Ticket sprechender
+- Slots oder Tickets vom Naming /Understanding => finde Ticket sprechender
 - PLZ Suche?
-
-
-Tom Lilge => App in Portugal

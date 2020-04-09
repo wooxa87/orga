@@ -1,34 +1,15 @@
 # Enduser Frontend App Tutorial Sammlung:
 
-### Optionen um App Tutorial darzustellen:
--	Interaktiv durch App führen, dabei Test Markt buchen lassen
--	Tutorial mithilfe von Text und Bildern 
--   Tutorial muss übersprungen werden können & erkannt ob schon angtezeigt
--   Tutorial muss wiederhohlbar sein
+### Anforderungen um App Tutorial darzustellen:
+-	(Interaktiv durch App führen, dabei Test Markt buchen lassen) oder
+-	Tutorial mithilfe von Text und Bildern, also Art slide show zu Beginn der App
+-   Tutorial muss übersprungen werden können & erkannt ob schon mal angtezeigt
+-   Tutorial muss wiederhohlbar sein => extra button
 -	Oben Leiste Einblenden, dass App in Beta Stadium + plz wo test Läden verfügbar
 
-### Übersicht über Tutorial Szenarien
-1.	Willkommen
-    * a.	Wir sind SafeMarket, flatternthecurve
-    * b.	Danke dass die sich für uns entschieden haben
-    * c.	Erstmal in Beta stadium 
-2.	Folgende Funktionen
-    * a.	Slot buchen
-        * i.	Standort Bestimmen (erstmal xyz)
-        * ii.	Dort einen Laden wählen
-        * iii.	Gewünschten Slot auswählen
-        * iv.	Slot reservieren
-    * b.	Slots verwalten
-        * i.	Erinnern
-        * ii.	Ticket löschen = nicht wieder aktivierbar!
-    * c.	Laden betreten
-        * i.	Guide zum verhalten (max x minuten früher bla)
-        * ii.	Beitritt via QR Code
-        * iii.	Beitritt via Geheimwort aus App/Tele/weitergabe
 
-
-
-## Ausfromulierte Texte des Tutorials 
+## Erste ausfromulierte Texte des Tutorials (jeder Punkt stellt einen neuen Slide im Tutorial dar)
+*Alle Texte sind in Beta stadium ;) Wesentlich geht es darum ob alle Funktionen für das Tutorial erfasst sind und ausreichent dargestellt werden*
 1. Vielen Dank dass Sie sich für SafeMarket entschieden haben! Dadurch helfen Sie entscheiden dabei mit das Infektionsrisiko auch beim Einkauf zu reduzieren #flatternTheCurve 
 2. Aktuell befindet sich diese Applikation noch in der ersten Beta. Konkret sind deshalb noch keine echten Märkte hinterlegt. Testmärkte finden Sie aber unter folgender PLZ: 12345
 3. SafeMarket bietet verschiedene Funktion um Sie beim Einkauf zu unterstützen: Wählen Sie eine Funktion um diese genauer kennen zu lernen:

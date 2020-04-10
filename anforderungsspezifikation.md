@@ -94,7 +94,7 @@ Hardware-Unterstützung für diese Aktivität ist denkbar. Eine Übersicht
 über verschiedene externe Elemente mit denen das System interagiert ist
 im Folgendem dargestellt:
 
-### Zuordnung von Produktion zu funktionalen Anforderungen
+### Zuordnung der Produktfunktionen zu den betroffenen funktionalen Anforderungen
 
 #### Endkunde
 

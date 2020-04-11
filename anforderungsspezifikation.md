@@ -48,10 +48,9 @@ Unterstützung gewährleistet ist.
 
 ### Erläuterungen zu Begriffen und/oder Abkürzungen
 
-- App meint immer iOS, Android und Website.
 - Termindauer = Einkaufszeit ist 50 Minuten
 - Terminbuchungsintervall = Buchbarer Ticket beginn alle 10 Minuten
-- Terminauslastung = Um 18:00 sind noch 5 Tickets verfügbar, berechnet aus - - Einkaufszeit und Interval
+- Terminauslastung = Um 18:00 sind noch 5 Tickets verfügbar, berechnet aus  Einkaufszeit und Interval
 - Anforderungen gelten allgemeint als erfüllt, sobald die zugeordneten Funktionen implementiert & getestet sind.
 
 ### Übersicht
@@ -96,51 +95,64 @@ im Folgendem dargestellt:
 
 ### Zuordnung der Produktfunktionen zu den betroffenen funktionalen Anforderungen
 
+#### Prioritäten
+
+|Zahl|Bedeutung|
+|:-|:-|
+|1|Very High, für MVP unabdingbar|
+|2|High, für MVP wünschenswert|
+|3|Medium, für das Endprodukt unabdingbar|
+|4|Low, für das Endprodukt wünschenwert|
+|5|Very Low, ganz weit in der Zukunft|
+
 #### Endkunde
 
-|ID|Produktfunktion|
-|:-|:-|
-|003|Endkunde kann über eine App oder Website angeben, ob er zu einer Risiko- / besonders geforderten Berufsgruppe angehört und zeitnah Termine erhalten|
-|003|Endkunde kann per Telefon angeben, ob er zu einer Risiko- / besonders geforderten Berufsgruppe angehört|
-|015|Endkunde kann über eine App oder Website teilnehmenden Läden in seiner Nähe finden|
-|016|Endkunde kann per Telefon teilnehmenden Läden in seiner Nähe finden|
-|001|Endkunde kann über eine App in teilnehmenden Läden einen Termin buchen und absagen|
-|001, 004|Endkunde kann per Telefon in teilnehmenden Läden einen Termin buchen|
-|001|Endkunde wird über eine App über die voraussichtliche Auslastung in teilnehmenden Läden informiert|
-|001|Endkunde wird per Telefon über die voraussichtliche Auslastung in teilnehmenden Läden informiert|
-|005|Endkunde wird über eine App an anstehende Termine erinnert|
-|012|Endkunde kann über eine App aktiv über Termine informiert werden, wenn die Auslastung gerade niedrig ist und er es wünscht|
-|002, 004|Endkunde kann über eine App für Freunde und Verwandte Termine buchen|
-|017|Endkunde kann über eine App nachweisen, dass er einen Termin besitzt|
-|017|Endkunde kann mündlich nachweisen, dass er einen Termin besitzt|
-|001|Endkunde kann auf einem Gerät ein Termin buchen und auf einem anderen abrufen indem der QR Code mit der Kunden-ID in der App abgescannt/eingetippt werden kann(Frage nach reichen Daten über Termine aus um Person zu rekonstruieren?)|
-|001|Anspruch des Endkunden den Laden zu betreten, verfällt bei einigen Minuten Verspätung|
-|001|Endkunde darf nur einen Termin pro Laden buchen|
-|001|Endkunde darf maximal gleichzeitig eine bestimmte Anzahl an Terminen halten|
-|018|Endkunde muss in die App eingeführt werden (Tutorial, Solidarität, Verhaltensguide)|
-|003|Endkunde mit speziellem Status (Berufsgruppe etc.) muss sich in App entsprechend verifizieren/bestätigen|
-|003|Endkunde mit speziellem Status (Berufsgruppe etc.) muss sich bei Laden verifizieren, dass dieser Status berechtigt ist|
+|ID|Funktionle Anforderung ID|Prio|Produktfunktion|
+|:-|:-|:-|:-|
+|F01|003|4|Endkunde kann über eine App angeben, ob er zu einer Risiko- / besonders geforderten Berufsgruppe angehört und zeitnah Termine erhalten|
+|F02|003|4|Endkunde kann per Telefon angeben, ob er zu einer Risiko- / besonders geforderten Berufsgruppe angehört|
+|F03|015|1|Endkunde kann über eine App oder teilnehmenden Läden in seiner Nähe finden|
+|F04|016|3|Endkunde kann per Telefon teilnehmenden Läden in seiner Nähe finden|
+|F05|001|1|Endkunde kann über eine App in teilnehmenden Läden einen Termin buchen und absagen|
+|F06|001, 004|3|Endkunde kann per Telefon in teilnehmenden Läden einen Termin buchen|
+|F07|001|1|Endkunde wird über eine App über die voraussichtliche Auslastung in teilnehmenden Läden informiert|
+|F08|001|4|Endkunde wird per Telefon über die voraussichtliche Auslastung in teilnehmenden Läden informiert|
+|F09|005|2|Endkunde wird über eine App an anstehende Termine erinnert|
+|F10|012|4|Endkunde kann über eine App aktiv über Termine informiert werden, wenn die Auslastung gerade niedrig ist und er es wünscht|
+|F11|002, 004|2|Endkunde kann über eine App für Freunde und Verwandte eine begrenzte Anzahl Terminen buchen (Geheimwort)||
+|F12|017|1|Endkunde kann über eine App nachweisen, dass er einen Termin besitzt|
+|F13|017|1|Endkunde kann mündlich nachweisen, dass er einen Termin besitzt (Geheimwort)|
+|F14|001|5|Endkunde kann auf einem Gerät ein Termin buchen und auf einem anderen abrufen indem der QR Code mit der Kunden-ID in der App abgescannt/eingetippt werden kann(Frage nach reichen Daten über Termine aus um Person zu rekonstruieren?)|
+|F15|001|1|Anspruch des Endkunden den Laden zu betreten, verfällt nach einigen Minuten (wird auch in App entsprechend angezeigt)|
+|F16|001|1|Endkunde darf nur einen Termin pro Laden buchen|
+|F17|001|1|Endkunde darf für sich maximal gleichzeitig eine bestimmte Anzahl an Terminen halten|
+|F18|018|2|Endkunde muss in die App eingeführt werden (Tutorial, Solidarität, Verhaltensguide)|
+|F19|003|4|Endkunde mit speziellem Status (Berufsgruppe etc.) muss sich in App entsprechend verifizieren/bestätigen|
+|F20|003|4|Endkunde mit speziellem Status (Berufsgruppe etc.) muss sich bei Laden verifizieren, dass dieser Status berechtigt ist|
+|F33||4|Auf Endkunde App fängt mit Beginn des Tickets ein Einkaufstimer an zu zählen. Der Kunde kann manuell den Einkauf beenden (Restticket freigeben).|
 
 #### Inhaber
 
-|ID|Produktfunktion|
-|:-|:-|
-|009, 014|Inhaber kann sich über eine Website oder App im System registrieren|
-|006|Inhaber kann Öffungszeiten konfigurieren/nachträglich anpassen|
-|006|Inhaber kann Max Zeitdauer eines Termins und empfohlene Termin Dauer konfigurieren/nachträglich anpassen|
-|002, 006|Inhaber kann die absolute Kapazität für geplante Kunden und Laufkundschaft konfigurieren/nachträglich anpassen|
-|007|Inhaber kann begrenzten Freitext angeben, um Kunde mit zusätzlichen Informationen zu versorgen|
-|013|Inhaber kann aktuelle Auslastung eingeben für Übersicht beim Endkunden, wo freie Plätze sind|
-|019|Inhaber hat Übersicht über die Ticketnutzung|
-|020|Inhaber kann mit Hilfer einer E-Mail Mitarbeiter konfigurieren, die die Mitarbeiterrolle innehaben. (Alternativ GUID, z.B. als QR-Code)|
+|ID|Funktionle Anforderung ID|Prio|Produktfunktion|
+|:-|:-|:-|:-|
+|F21|009, 014|1|Inhaber kann sich über eine Website und App im System registrieren|
+|F22|006|1|Inhaber kann Öffungszeiten konfigurieren/nachträglich anpassen|
+|F23|006|1|Inhaber kann Max Zeitdauer eines Termins und empfohlene Termin Dauer konfigurieren/nachträglich anpassen|
+|F24|002, 006|1|Inhaber kann die absolute Kapazität für geplante Kunden und Laufkundschaft konfigurieren/nachträglich anpassen|
+|F25|007|2|Inhaber kann begrenzten Freitext angeben, um Kunde mit zusätzlichen Informationen zu versorgen|
+|F26|013|1|Inhaber kann aktuelle Auslastung eingeben für Übersicht beim Endkunden, wo freie Plätze sind (Ampel)|
+|F27|019|3|Inhaber hat Übersicht über die Ticketnutzung|
+|F28|020|1|Inhaber kann SSO Accounts (Store + User + Passwort) für seine Mitarbeiter konfigurieren, die die Mitarbeiterrolle innehaben.|
+
 
 #### Mitarbeiter
 
-|ID|Produktfunktion|
-|:-|:-|
-|017|Mitarbeiter kann mit einer App und Website verifizieren, ob ein Kunde über einen gebuchten Termin verfügt (mündlich oder per QR-Code)|
-|013|Mitarbeiter kann aktuelle Auslastung eingeben für Übersicht beim Endkunden, wo freie Plätze sind|
-|003|Mitarbeiter kann Status von speziellen Berufsgruppen bestätigen|
+|ID|Funktionle Anforderung ID|Prio|Produktfunktion|
+|:-|:-|:-|:-|
+|F29|017|1|Mitarbeiter kann mit einer App und Website verifizieren, ob ein Kunde über einen gebuchten Termin verfügt (mündlich oder per QR-Code)|
+|F30|013|1|Mitarbeiter kann aktuelle Auslastung eingeben für Übersicht beim Endkunden, wo freie Plätze sind (Ampel)|
+|F31|003|4|Mitarbeiter kann Status von speziellen Berufsgruppen bestätigen|
+|F32||5|Mitarbeiter kann aktuelle Auslastung personengenau tracken|
 
 ### Benutzermerkmale
 

@@ -32,13 +32,13 @@ Bitte eine kurze Aussage zu:
 
 Effizienz/Performance:Api seitig Python 3.6 mit fastapi+gunicorn anstatt vorher flask(auf einem Niveau mit go und Nodejs,theoretisch ca 4-5k Anfragen pro Kern pro s) 
 
-Kompatibilität(Schnittstellen zu anderen Systemen): Rest api mit openapi und swagger. 
+Kompatibilität(Schnittstellen zu anderen Systemen): Rest api via json payloads mit openapi und swagger. Datenbankschnittstelle sqlalchemy core fürs query bauen und ein async driver für postgresql/mysql
 
-Benutzbarkeit(für Endnutzer):Webseite
+Benutzbarkeit(für Endnutzer):Webseite, 5 endpoints die per ui via swagger aufgerufen werden können
 
-Zuverlässigkeit:sehr zuverlässig da error handling zu 80-90% durch das framework gemacht werden 
+Zuverlässigkeit:sehr zuverlässig da error handling zu 80-90% durch das framework gemacht werden, (5xx,4xx Fehler etc) 
 
-Sicherheit: Authentifizierung via Token bearer
+Sicherheit: Authentifizierung via Token bearer, ssl via letsencrypt und traefik. 
 
 Wartbarkeit(Modularität/Dokumentation):Doku via Swagger
 

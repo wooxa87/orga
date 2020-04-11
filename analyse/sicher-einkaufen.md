@@ -15,7 +15,7 @@ Für die Details bitte die [Anforderungsspezifikation](https://github.com/SafeMa
 |005|Das System erinnert einen Kunden an seinen Termin.|Nein|
 |006|Das System bietet die Funktion, die Markt Eigenschaften (Kapazität/Termindauer..) zu konfigurieren / anpassen und nie zu viele Kunden in das Geschäft zu lassen.|Ja/Teilweise|
 |007|Das System bietet (Inhabern) die Möglichkeit, Endkunden einen frei wählbaren Status zu präsentieren.|Ja|
-|012|Das System bietet bei freien Kapazitäten Kunden aktiv Termine an.|Ja/Nein/Teilweise|
+|012|Das System bietet bei freien Kapazitäten Kunden aktiv Termine an.|Nein|
 |014|Das System kann die Authentizität von Geschäften durch manuellen Abgleich und/oder mit externen Daten bestimmen.|Ja/Teilweise|
 |009|Es können nur Läden angelegt/ verwaltet werden, wenn der Nutzer als Ladeninhaber bestätigt wurde.|Ja/Teilweise|
 |013|Das System bietet die Möglichkeit eine prozentuale Einschätzung (“Ampel”) über die Auslastung abzugeben.|Ja|
@@ -34,7 +34,7 @@ Effizienz/Performance:Api seitig Python 3.6 mit fastapi+gunicorn anstatt vorher 
 
 Kompatibilität(Schnittstellen zu anderen Systemen): Rest api via json payloads mit openapi und swagger. Datenbankschnittstelle sqlalchemy core fürs query bauen und ein async driver für postgresql/mysql
 
-Benutzbarkeit(für Endnutzer):Webseite, 5 endpoints die per ui via swagger aufgerufen werden können
+Benutzbarkeit(für Endnutzer):Webseite(https://sicher-einkaufen.info), 5 endpoints die per ui via swagger aufgerufen werden können(https://controlservice.sicher-einkaufen.info) 
 
 Zuverlässigkeit:sehr zuverlässig da error handling zu 80-90% durch das framework gemacht werden, (5xx,4xx Fehler etc) 
 

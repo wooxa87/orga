@@ -30,7 +30,7 @@ Für die Details bitte die [Anforderungsspezifikation](https://github.com/SafeMa
 
 Bitte eine kurze Aussage zu:
 
-Effizienz/Performance:Api seitig Python 3.6 mit fastapi+gunicorn anstatt vorher flask(auf einem Niveau mit go und Nodejs,theoretisch ca 4-5k Anfragen pro Kern pro s) 
+Effizienz/Performance:Api seitig Python 3.6 mit fastapi+gunicorn anstatt vorher flask(auf einem Niveau mit go und Nodejs,theoretisch ca 4-5k Anfragen pro Kern pro s) , [schnellstes framework in python](https://www.techempower.com/benchmarks/#section=data-r18&hw=ph&test=query&l=zijzen-7)
 
 Kompatibilität(Schnittstellen zu anderen Systemen): Rest api via json payloads mit openapi und swagger. Datenbankschnittstelle sqlalchemy core fürs query bauen und ein async driver für postgresql/mysql
 

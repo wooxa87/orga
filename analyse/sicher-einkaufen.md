@@ -34,7 +34,7 @@ Effizienz/Performance:Api seitig Python 3.6 mit fastapi+gunicorn anstatt vorher 
 
 Kompatibilität(Schnittstellen zu anderen Systemen): Rest api via json payloads mit openapi und swagger. Datenbankschnittstelle sqlalchemy core fürs query bauen und ein async driver für postgresql/mysql
 
-Benutzbarkeit(für Endnutzer):Webseite(https://sicher-einkaufen.info), 5 endpoints die per ui via swagger aufgerufen werden können(https://controlservice.sicher-einkaufen.info) 
+Benutzbarkeit(für Endnutzer):Webseite(https://sicher-einkaufen.info), 5 endpoints die per ui via swagger aufgerufen werden können(https://controlservice.sicher-einkaufen.info/docs) 
 
 Zuverlässigkeit:sehr zuverlässig da error handling zu 80-90% durch das framework gemacht werden, (5xx,4xx Fehler etc) 
 

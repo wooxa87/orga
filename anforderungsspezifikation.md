@@ -250,7 +250,7 @@ Anforderungen.
 | Wann tritt das Problem auf?             | Bei Auslastungsspitzen                                                                                                                                               |
 | Wo tritt das Problem auf?               | Im/Vor dem Geschäft                                                                                                                                                  |
 | Wie erkennt man die Lösung?             | Es bilden sich keine Schlangen mehr vor den Geschäften, Kundenstrom verteilt                                                                                         |
-| Anforderung                             | Das System bietet die Funktion, die Markt Eigenschaften (Kapazität/Ticket Duration..) zu konfigurieren / anpassen und nie zu viele Kunden in das Geschäft zu lassen. |
+| Anforderung                             | Das System bietet die Funktion, die Markt Eigenschaften (Kapazität/Termindauer..) zu konfigurieren / anpassen und nie zu viele Kunden in das Geschäft zu lassen. |
 
 | ID                                      | 007                                                                                                                                        |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |

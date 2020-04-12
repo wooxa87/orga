@@ -36,6 +36,8 @@ Kompatibilität(Schnittstellen zu anderen Systemen): Rest api via json payloads 
 
 Benutzbarkeit(für Endnutzer):Webseite(https://sicher-einkaufen.info), 5 endpoints die per ui via swagger aufgerufen werden können(https://controlservice.sicher-einkaufen.info/docs) 
 
+Code: https://github.com/fachinformatiker/wirvsvirus_project_17/tree/development/control_service
+
 Zuverlässigkeit:sehr zuverlässig da error handling zu 80-90% durch das framework gemacht werden, (5xx,4xx Fehler etc), Input validation,autorestarts via Docker und gunicorn
 
 Sicherheit: Authentifizierung via Oauth2, ssl via letsencrypt und traefik. 

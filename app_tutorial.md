@@ -38,3 +38,5 @@
 ## Aufgekommene Fragen:
 - Slots oder Tickets vom Naming /Understanding => finde Ticket sprechender
 - PLZ Suche?
+
+

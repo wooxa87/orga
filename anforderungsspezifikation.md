@@ -40,11 +40,11 @@ Unterstützung gewährleistet ist.
 
 ### Verweise auf sonstige Ressourcen und Quellen
 
-- [Devpost des ursprünglichen”Safe Market” Hackathon Projekts:](https://devpost.com/software/17_supermarkt_status_reservation_system)
+- [Devpost des ursprünglichen”Safe Market” Hackathon Projekts](https://devpost.com/software/17_supermarkt_status_reservation_system)
 
-- [Devpost des “Queued” Hackathon Projekts:](https://devpost.com/software/1_019_92_timeslotmanagement)
+- [Devpost des “Queued” Hackathon Projekts](https://devpost.com/software/1_019_92_timeslotmanagement)
 
-- [Devpost des “Sicher einkaufen” Hackathon Projekts:](https://devpost.com/software/17_supermarket_status_platform_live_tracking_user)
+- [Devpost des “Sicher einkaufen” Hackathon Projekts](https://devpost.com/software/17_supermarket_status_platform_live_tracking_user)
 
 ### Erläuterungen zu Begriffen und/oder Abkürzungen
 

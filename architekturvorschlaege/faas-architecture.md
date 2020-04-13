@@ -50,7 +50,8 @@
     - flexibel, weitere Endpunkte können einfach hinzugefügt werden
 - kein "Deployment" erforderlich => einfach Code an der richtigen Stelle abkippen
 - einfaches Updaten => Code austauschen
-- automatische Skalierung
+    - lokales testen ist allerdings nicht möglich
+- automatische Skalierung ist vom Prinzip her schon integriert
 - wir müssen keine Infrastruktur managen
 - viele unterstützte Programmiersprachen
     - viele können am Backend arbeiten
@@ -58,8 +59,10 @@
     - fördert auch Integration von Helfern, die nur mal schnell was coden wollen :D
     - jetziges "SafeMarket"-Backend zu Functions refactoren
 - man zahlt nur für das was man braucht
-    - erstaunlich günstig, da wir eher kleine und kurze Workloads haben 
+    - erstaunlich günstig, da wir eher kleine und kurze Workloads haben
+    - macht Kosten unkalkulierbar wegen unvorhersagbarer Aufruf-Anzahl (Kostenexplosion möglich bei hohem Traffic)
     - [Beispiel Google Cloud Functions](https://cloud.google.com/functions/pricing#simple_background_function)
+- Vendor Lock-in
 
 ## Externe Datenquellen
 

@@ -9,7 +9,7 @@ Für die Details bitte die [Anforderungsspezifikation](https://github.com/SafeMa
 |ID|Anforderung|Erfüllt?|Notizen|
 |:-|:-|:-|:-|
 |001|Das System bietet die Funktion für den Einkauf einen Termin (Zeitpunkt + Dauer) zu reservieren. Zusätzlich zeigt es an, welche Geschäfte aktuell stark besucht sind.|Teilweise|:white_check_mark: Termin buchen, Anzeige von Auslastung aktuell und zukünftig<br>:x: kein Telefonsupport, kein Termin-Absagen, kein Multi-Geräte-Support, keine Termin-Buchungsrestriktionen|
-|002|Das System plant Kapazitäten für Laufkunden bzw. technische nicht versierte Benutzer ein.|Ja|:white_check_mark: Termin für andere buchen|
+|002|Das System plant Kapazitäten für Laufkunden bzw. technische nicht versierte Benutzer ein.|Teilweise|:white_check_mark: Termin für andere buchen theoretisch möglich, allerdings noch keine Ui Komponenten um auszuwählen zu können, dass für eine andere Person gebucht wird|
 |003|Das System berücksichtigt die knappe Zeit bestimmter Gruppen und ermöglicht diesen optimale Termine.|Nein||
 |004|Das System ermöglicht es für Freunde und Verwandte Termine zu buchen. Außerdem kann per Telefon ein Termin vereinbart werden.|Teilweise|:white_check_mark: Termin für andere buchen<br>:x: Telefonsupport|
 |005|Das System erinnert einen Kunden an seinen Termin.|Ja|:white_check_mark: Notification 30 min vor Beginn der Reservierung, muss aktiviert werden|

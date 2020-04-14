@@ -5,7 +5,7 @@
 
 
 ## Aufbau:
-Siehe faas Aufbau von, dort anstatt des faas, ähnliche Funktion bloß  mit eigener API gebaut (api endpoint pro Funktion->in ne redis/rabittmq queue-> worker arbeiten diese ab) 
+Siehe faas Aufbau von https://github.com/SafeMarket-WirVsVirus/orga/blob/master/architekturvorschlaege/faas-architecture.md, dort anstatt des faas, ähnliche Funktion bloß  mit eigener API gebaut (api endpoint pro Funktion->in ne redis/rabittmq queue-> worker arbeiten diese ab) 
 -Via kubernetes ein automatisches skalieren von workern und redis/rabbitmq, sollte daher egal auf welchem hoster laufen solange ein kubernetes System existiert
 https://github.com/SafeMarket-WirVsVirus/orga/blob/master/architekturvorschlaege/faas-architecture.md
 

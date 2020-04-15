@@ -16,7 +16,7 @@ Außerdem kann der Datenabgleich nur stattfinden, wenn dabei alle Geräte gleich
 Die Termindaten werden so gespeichert, dass die Zuordnung zum Nutzer mit Hilfe des Datenbestandes alleine nicht möglich ist.
 Sie kann nur während der Bearbeitung der Anfragen, die vom Nutzergerät stammen, rekonstruiert werden.
 
-![Schematische Darstellung des Datenmodells](datenmodell-termine.svg)
+![Schematische Darstellung des Datenmodells](../diagrams/datenmodell-termine.svg)
 
 Das funktioniert, indem die Referenzen zu den Terminen aus dem Token des Front-Ends mittels einer kryptographischen Hashfunktion berechnet werden.
 Der Token wird bei jeder Anfrage übertragen aber nicht gespeichert (nur als Hash für die Überprüfung).

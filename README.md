@@ -11,3 +11,4 @@ Dieses Repository ist die zentrale Sammlung aller Dokumente und Links die mit de
 - Unspalsh Bilder: https://unsplash.com/license
 - Open Sans Font: http://www.apache.org/licenses/LICENSE-2.0
 - Green Shadow Flaticons: Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br>(https://www.flaticon.com/authors/vitaliy_gorbachev/green-shadow)
+- Fontawesome: https://github.com/SafeMarket-WirVsVirus/website/blob/master/fontawesome-license.txt

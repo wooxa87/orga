@@ -1,39 +1,39 @@
-#Company: 
-SafeMarket
+# Company: 
+- SafeMarket
 
-#Account owner first name:
+# Account owner first name:
 
-#Account owner last name:
+# Account owner last name:
 
-#Street address: 
+# Street address: 
 
-#Street address 2 (if needed):
+# Street address 2 (if needed):
 
-#City:
+# City:
 
-#State (if applicable):
+# State (if applicable):
 
-#Postal code: *
+# Postal code:
 
-#Country/Region: *
+# Country/Region:
 
-#Contact phone number: *
+# Contact phone number:
+ 
+# Account owner email address:
 
-#Account owner email address: *
+# Overview of product and market:
 
-#Overview of product and market: *
+# Describe your target market:
 
-#Describe your target market: *
-
-#Provide at least two URLs directly associated with your company (company website, AngelList, LinkedIn, Twitter, etc.): *
+# Provide at least two URLs directly associated with your company (company website, AngelList, LinkedIn, Twitter, etc.):
 
 https://w3.ibm.com/w3publisher/blog-healthtech/blog/d1bc2b80-79ab-11ea-8df4-5152ec333b31
 
-#Year company was founded: *
-2020
+# Year company was founded:
+- 2020
 
-#Details on accelerator or incubator affiliations to date: *
+# Details on accelerator or incubator affiliations to date:
 
-#If applicable, provide your company tax ID number (VAT or CNPJ):
--
+# If applicable, provide your company tax ID number (VAT or CNPJ):
+- x
 
